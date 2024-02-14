@@ -38,136 +38,122 @@ will be added soon
 
 ![Key Functionalities](assets/key-functionalities.jpg)
 
-### 1. Dementia Patient
+### Clinical Diagnostics Assistance:
+This application focuses on aiding hematologists and pathologists in accurately classifying bone marrow cells for the diagnosis and monitoring of various blood diseases, including leukemia, anemia, myelodysplastic syndromes, and others. Leukemia is a cancer of the blood or bone marrow characterized by an abnormal increase in white blood cells. Anemia is a condition in which the body lacks enough healthy red blood cells to carry adequate oxygen to the body's tissues. Myelodysplastic syndromes are a group of disorders caused by poorly formed blood cells or a malfunction in the bone marrow.
 
-The **`Dementia Patient`** can request for help from their **`Caregiver`** and begin the navigation back home by tapping on the red **`Navigate Home`** button on their home page. The application will also begin navigation when the **`Patient`** leaves the configurable safezone radius around their home, or when they press the red button the companion wrist wearable device.
+By automating processes and decreasing diagnostic response time, the application enables healthcare practitioners to concentrate on complex patient care tasks.
 
-This will display a route home on the Google Maps widget. This route will be updated as the patient goes along, rerouting when necessary.
+### Research Support:
+In addition to clinical use, this application supports research in haematology, stem cell biology, and related fields. Researchers can utilize it to study bone marrow samples for scientific investigations, medication development, and deeper understanding of hematopoiesis—the process of blood cell formation. Accurate classification of bone marrow cells is crucial for guiding treatment decisions and monitoring patient development.
 
-The patient would each have an Authentication ID which is used to ensure that the **`Volunteer`** will only have access to the **`Patient's`** home address when they have actually met them.
+### Educational Tool:
+This application serves as an educational tool for training new haematologists and pathologists. It provides expertise in bone marrow cell classification and helps users comprehend the complexities of different cell types. This feature contributes to the professional development of medical practitioners in the field.
 
-### 2. Caregiver
+User Authentication and Profile Management:
+Users can register and log in to the system, accessing a personalized home screen upon login. They have the option to upload images from the gallery or camera, which are then sent to the server's model for analysis. Results, including cell name and description, are returned to the user's app and stored in Firebase for maintaining a history of analyses.
 
-The **`Caregiver`** will receive a notification when their respective **`Patients`** have started to navigate home. This will inform them about the **`Patient's`** current location, and also allow them to choose to send an SOS alert signal to **`Volunteers`**.
+### Profile Management and Security:
+Users can update their profiles and change passwords within the application, ensuring their information is up-to-date and secure. This feature enhances user experience and data protection.
 
-The **`Caregiver`** will then be able to contact the **`Volunteers`** who have started to guide the **`Patient`** back home through the **`contact`** button of the application.
+This application streamlines the process of bone marrow analysis, supports medical research and education, and provides users with a secure platform for clinical diagnostics. It combines cutting-edge technology with user-friendly features to meet the needs of healthcare professionals, researchers, and educators in the field of hematologyClinical Diagnostics Assistance:
+This application focuses on aiding haematologists and pathologists in accurately classifying bone marrow cells to diagnose and monitor various blood diseases, including leukaemia, anaemia, myelodysplastic syndromes, and others. Leukaemia is a cancer of the blood or bone marrow characterized by an abnormal increase in white blood cells. Anaemia is when the body lacks enough healthy red blood cells to carry adequate oxygen to the body's tissues. Myelodysplastic syndromes are a group of disorders caused by poorly formed blood cells or a malfunction in the bone marrow.
 
-### 3. Volunteers
+By automating processes and decreasing diagnostic response time, the application enables healthcare practitioners to concentrate on complex patient care tasks.
 
-**`Volunteers`** would be able to view all nearby SOS alerts, and select the **`Patient`** they wish to help. The app would provide them with the current location of the **`Patient`**, and also allow them to redirect to Google Maps to find their way to these **`Caregivers`**.
+### Research Support:
+In addition to clinical use, this application supports research in haematology, stem cell biology, and related fields. Researchers can utilize it to study bone marrow samples for scientific investigations, medication development, and a deeper understanding of hematopoiesis—the process of blood cell formation. Accurate classification of bone marrow cells is crucial for guiding treatment decisions and monitoring patient development.
 
-Thereafter, when the **`Volunteers`** reach the **`Patient`**, they would be able to start leading them home after verifying the `Patient's` Authentication ID
+### Educational Tool:
+This application serves as an educational tool for training new haematologists and pathologists. It provides expertise in bone marrow cell classification and helps users comprehend the complexities of different cell types. This feature contributes to the professional development of medical practitioners in the field.
 
-<a href="https://raw.githubusercontent.com/GSC23-HeadHome/HeadHome/main/assets/user-flow-diagram.png">
-<img src="./assets/user-flow-diagram.png" target="_blank" />
-</a>
-<br />
+### User Authentication and Profile Management:
+Users can register and log in to the system, accessing a personalized home screen upon login. They have the option to upload images from the gallery or camera, which are then sent to the server's model for analysis. Results, including cell name and description, are returned to the user's app and stored in Firebase for maintaining a history of analyses.
 
-> Click image to enlarge.
+### Profile Management and Security:
+Users can update their profiles and change passwords within the application, ensuring their information is up-to-date and secure. This feature enhances user experience and data protection.
 
-This user flow diagram gives an overview of the communication flows between the various stakeholders through HeadHome.
+This application streamlines the process of bone marrow analysis, supports medical research and education, and provides users with a secure platform for clinical diagnostics. It combines cutting-edge technology with user-friendly features to meet the needs of healthcare professionals, researchers, and educators in the field of haematology
+
 
 ## 🎯 &nbsp;UN's Sustainable Development Goals & Targets
 
-### SDG 3: Good Health and Well-Being (Target: 3.6)
+### SDG 3: Good Health and Well-Being
 
-![SDG3](assets/SDG3.png)
+![SDG3](assets/sdg3.png)
 
-HeadHome directly addresses the issue of **dementia wandering**.
+Marrow Master directly addresses the issue of **Blood Cancer**.
 
-Wandering episodes can bring danger to patients such as traffic incidents, with no way to contact their caregivers. Thus, caregivers might feel the need to micromanage their patients, causing significant caregiver stress.
+The project's goal is to enhance patient outcomes by using machine learning to streamline haematological diagnosis. Precise categorization of microscopic bone marrow cells can enhance diagnostic and therapeutic outcomes, eventually promoting greater health and welfare for individuals.
 
-HeadHome can help these patients by providing clear and simple instructions on the wearable to guide the patient home. It also sends alerts to their caregiver whenever they need help, removing the need for constant tracking and monitoring.
+### SDG 4: Quality Education
 
-### SDG 11: Sustainable Cities and Communities (Target: 11.a.1)
+![SDG4](assets/sdg4.png)
 
-![SDG11](assets/SDG11.png)
+Although not stated directly, the project probably entails training medical professionals on how to utilize the mobile application and categorization system. Healthcare personnel's skills and knowledge may be improved by training them on how to understand and use technology efficiently, which would raise the standard of care.
 
-HeadHome **leverages the power of the community** to improve the lives of dementia patients. Most caregivers have full-time jobs and cannot be with their loved ones 24/7. To ensure that dementia patients can receive help anytime, we will recruit registered volunteers in the community. Caregivers can send out an SOS message to volunteers near the vulnerable patient, who can guide the patients back home. This builds up an inclusive and socially aware community, which can help these patients when they are in need.
+
+### SDG 9: Infrastructure, Industry, and Innovation
+
+![SDG9](assets/sdg9.png)
+
+Marrow Master explores the field of medical diagnostics by utilizing technological infrastructure and machine-learning approaches. The project advances technology in healthcare infrastructure by creating a user-friendly mobile application and utilizing Vision Transfer methods.
+
+
+### SDG 10: Reduced disparities
+
+![SDG10](assets/sdg10.png)
+
+Marrow Master intends to minimize gaps in healthcare access by enhancing accessibility to haematological diagnostics using a user-friendly mobile application. The streamlined and effective diagnostic procedure can help patients from a variety of backgrounds and places.
+
+
+### SDG 17: Partnerships for the Goals
+
+![SDG17](assets/sdg17.png)
+
+To accomplish its goals, the initiative probably needs to work with data scientists, software developers, and medical specialists. Creating cross-sector alliances and working together is crucial to solving complicated problems in technology and health.
 
 ## 👨🏻‍💻 &nbsp;Technology Stack
 
 <div align="center">
 <kbd>
-<img src="./assets/icons/Flutter.png" height="60" />
+<img src="./assets/flutter.png" height="60" />
 </kbd>
 <kbd>
-<img src="./assets/icons/Dart.png" height="60" />
+<img src="./assets/dart.png" height="60" />
 </kbd>
 <kbd>
-<img src="./assets/icons/Firebase.png" height="60" />
+<img src="./assets/firebase.png" height="60" />
 </kbd>
 <kbd>
-<img src="./assets/icons/Go.png" height="60" />
+<img src="./assets/android.png" height="60" />
 </kbd>
 <kbd>
-<img src="./assets/icons/Gin.png" height="60" />
+<img src="./assets/vscode.png" height="60" />
 </kbd>
 <kbd>
-<img src="./assets/icons/GCP.png" height="60" />
+<img src="./assets/colab.png" height="60" />
 </kbd>
 <kbd>
-<img src="./assets/icons/Maps.png" height="60" />
+<img src="./assets/tensorflow.png" height="60" />
 </kbd>
 <kbd>
-<img src="./assets/icons/Arduino.png" height="60" />
+<img src="./assets/python.png" height="60" />
 </kbd>
 <kbd>
-<img src="./assets/icons/ESP32.png" height="60" />
+<img src="./assets/flash.png" height="60" />
+</kbd>
+    <kbd>
+<img src="./assets/github.png" height="60" />
+</kbd>
+    </kbd>
+    <kbd>
+<img src="./assets/adobe.png" height="60" />
 </kbd>
 </div>
 <div align="center">
-<h4>Flutter | Dart | Firebase | Go | Gin | Google Cloud Platform | Google Maps Platform | Arduino | ESP32</h4>
+<h4>Flutter | Dart | Firebase | Android | VsCode | Colab | TensorFlow | Python | Flash | Github | Adobe Illustrator</h4>
 </div>
 
-## ☁️ &nbsp;Enterprise Cloud Architecture & Services
-
-<a href="https://raw.githubusercontent.com/GSC23-HeadHome/HeadHome/main/assets/cloud-architecture.png">
-<img src="./assets/cloud-architecture.png" target="_blank" />
-</a>
-<br />
-
-> Click image to enlarge.
-
-### 1. Presentation Layer
-
-**Users** of HeadHome will directly interact with the Presentation Layer, namely the HeadHome wearable built with **Arduino & ESP32**, as well as the HeadHome mobile application built with **Flutter & Dart**. Any business or computational logic is abstracted onto the serverless backend hosted on **Cloud Run**. With Cloud Run's auto-scaling and load balancing capabilities, in the event of more traffic, our backend is able to seamlessly scale horizontally to meet the growing demands of the application. Due to the flexibility and versatility of Cloud Run, an external load balancer in the form of Google's **Cloud Load Balancing** could be tapped on to deploy our backend to multiple regions and further reduce latencies and downtime.
-
-**For more information:**
-
-HeadHome hardware wearable: [Link](https://github.com/GSC23-HeadHome/HeadHome-Hardware)
-
-HeadHome frontend mobile application: [Link](https://github.com/GSC23-HeadHome/HeadHome-App)
-
-HeadHome backend: [Link](https://github.com/GSC23-HeadHome/HeadHome-Backend)
-
-### 2. CI/CD Pipeline
-
-For **developers**, the HeadHome project comes with a fully integrated CI/CD pipeline equipped with auto-deployment from **Github**. Any code changes to the [HeadHome Backend Repository](https://github.com/GSC23-HeadHome/HeadHome-Backend) will be automatically mirrored onto **Google Cloud Source Repositories** and containerised to **Artifact Registry** via **Cloud Build**. Coupled with **Secret Manager**, the backend container is deployed serverless via **Cloud Run**.
-
-### 3. Backend Services & Storage Layer
-
-Many miscellaneous backend and storage services abstracted and handled via **Google Cloud**, as detailed below.
-
-| Google Cloud Service     | Purpose & Use                                                                                 |
-| ------------------------ | --------------------------------------------------------------------------------------------- |
-| Google Maps Platform     | Directions API to display route back home & Maps SDK to display map on the mobile application |
-| Firebase Cloud Messaging | Handles push notifications to caregivers                                                      |
-| Firebase Authentication  | Handles all authentication related painpoints                                                 |
-| Firebase Storage         | Stores profile assets for the frontend application                                            |
-| Firebase Cloud Firestore | Main production database for all business storage purposes                                    |
-
-### 4. Analysis Layer
-
-![looker dashboard](./assets/looker-dashboard.png)
-
-For **business stakeholders** who are looking to gather critical business intelligence, such as the amount of resources required for each geographical area, the data from our **Cloud Firestore** database is streamed to **Google BigQuery**, and pumped to **Looker Studio** as a business intelligence monitoring platform.
-
-### 5. Operations Layer
-
-![cloud monitoring dashboard](./assets/cloud-monitoring-dashboard.png)
-
-For **business stakeholders** looking to gather operational metrics, HeadHome comes with an Operations Layer including **Cloud Monitoring** and **Cloud Logging**. These Google Cloud Platform services are integral to gain a more holistic profiling of our users and a better understanding of our services internally via uptime checks and alerts.
 
 # Getting Started
 
