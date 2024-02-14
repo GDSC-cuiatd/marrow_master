@@ -41,15 +41,13 @@ will be added soon
 ### Clinical Diagnostics Assistance:
 This application focuses on aiding haematologists and pathologists in accurately classifying bone marrow cells to diagnose and monitor various blood diseases, including leukaemia, anaemia, myelodysplastic syndromes, and others. Leukaemia is a cancer of the blood or bone marrow characterized by an abnormal increase in white blood cells. Anaemia is when the body lacks enough healthy red blood cells to carry adequate oxygen to the body's tissues. Myelodysplastic syndromes are a group of disorders caused by poorly formed blood cells or a malfunction in the bone marrow.
 
-By automating processes and decreasing diagnostic response time, the application enables healthcare practitioners to concentrate on complex patient care tasks.
-
 ### Research Support:
 In addition to clinical use, this application supports research in haematology, stem cell biology, and related fields. Researchers can utilize it to study bone marrow samples for scientific investigations, medication development, and a deeper understanding of hematopoiesis—the process of blood cell formation. Accurate classification of bone marrow cells is crucial for guiding treatment decisions and monitoring patient development.
 
 ### Educational Tool:
 This application serves as an educational tool for training new haematologists and pathologists. It provides expertise in bone marrow cell classification and helps users comprehend the complexities of different cell types. This feature contributes to the professional development of medical practitioners in the field.
 
-User Authentication and Profile Management:
+### User Authentication and Profile Management:
 Users can register and log in to the system, accessing a personalized home screen upon login. They have the option to upload images from the gallery or camera, which are then sent to the server's model for analysis. Results, including cell name and description, are returned to the user's app and stored in Firebase for maintaining a history of analyses.
 
 ### Research Support:
