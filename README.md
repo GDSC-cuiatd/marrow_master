@@ -11,7 +11,7 @@
 <br>
 <h1 align="center">Marrow Master</h1>
 
-![Marrow Master](assets/headhome.png)
+![Marrow Master](assets/logo.png)
 
 **Marrow Master: Experience the future of cell classification on your device**
 
