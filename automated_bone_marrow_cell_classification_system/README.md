@@ -1,16 +1,123 @@
-# automated_bone_marrow_cell_classification_system
+<div align="center">
+    <div >
+        <img width="200px" src="" alt=""/>
+    </div>
+    <div >
+            <p style="font-size:50px;"><b>Marrow Master</b></p>
+            <p style="font-size:18px"><i>Experience the future of cell</i></p>
+    </div>      
+</div>
+<br>
 
-A new Flutter project.
+<h1 align="center">HeadHome Application</h1>
+<div align="center">
 
-## Getting Started
+|                               Patient                                |                           Caregiver                            |                    Volunteer                    |
+| :------------------------------------------------------------------: | :------------------------------------------------------------: | :---------------------------------------------: |
+| <img height="400" src="./assets/elderly page - navigation idle.png"> | <img height="400" src="./assets/caregiver - patient info.png"> | <img height="400" src="./assets/volunteer.png"> |
 
-This project is a starting point for a Flutter application.
+</div>
+The <b>Marrow Master application</b> presents users with a simplified and streamlined interface that highlights only the most relevant information for each user.
+<br>
+<h2>👨🏻‍💻 Technology Stack</h2>
+<br />
+<div align="center">
+    <kbd>
+        <img height="60" src="./assets/icon/Flutter.png"/>
+    </kbd>
+    <kbd>
+        <img height="60" src="./assets/icon/Dart.png"/>
+    </kbd>
+    <kbd>
+        <img height="60" src="./assets/icon/Maps.png"/>
+    </kbd>
+    <kbd>
+        <img height="60" src="./assets/icon/Firebase.png"/>
+    </kbd>
+    <kbd>
+        <img height="60" src="./assets/icon/GCP.png"/>
+    </kbd>	
+    <h4>Flutter | Dart | Google Maps Platform | Firebase | Google Cloud Platform</h4>
+</div>
 
-A few resources to get you started if this is your first Flutter project:
+<br>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This repo contains the <b>Frontend application</b> for Marrow Master. Click [here](https://github.com/GDSC-cuiatd/marrow_master) to view the full solution.
+<br><br>
+[Flutter `(Version 3.16.7 • channel stable)`](https://docs.flutter.dev/get-started/install) must be installed to run this application.
+
+## ⚙️ &nbsp;Steps to Setup
+
+1. Clone Repo
+
+```
+$ git clone https://github.com/GDSC-cuiatd/marrow_master/automated_bone_marrow_cell_classification_system
+```
+
+2. Run the following code in bash to install the required dependencies
+
+```
+$ cd automated_bone_marrow_cell_classification_system
+$ flutter pub get
+```
+
+3. Launch Application
+
+```
+$ flutter run [--release]
+```
+<br>
+
+## 🔑 &nbsp;Files and Directories
+
+```tree
+├── android
+├── assets
+├── ios
+├── lib.go
+│   ├── api
+│   |   ├── models
+│   |   └── api_services.dart
+│   ├── components
+│   |   ├── add_patient.dart
+│   |   ├── gmaps_widget.dart
+│   |   ├── profile_dialog.dart
+│   |   └── settings_dialog.dart
+│   |   └── stview_widget.dart
+│   ├── pages
+│   |   ├── auth_login.dart
+│   |   ├── auth_register.dart
+│   |   ├── caregiver.dart
+│   |   ├── caregiver_patient.dart
+│   |   ├── patient.dart
+│   |   ├── volunteer.dart
+│   |   └── volunteer_patient.dart
+│   ├── utils
+│   |   ├── debouncer.dart
+│   |   └── strings.dart
+│   ├── constants.dart
+│   ├── firebase_option.dart
+│   └── main.dart
+├── linux
+├── macos
+├── test
+├── web
+├── windows
+├── .gitignore
+├── .metadata
+├── README.md
+├── analysis_options.yaml
+├── pubspec.lock
+├── pubspec.yaml
+└── testing_accounts.md
+```
+
+<br>
+
+## 👥 &nbsp;Contributors
+
+| <a href="https://github.com/chayhuixiang"><img width="180px" src="https://firebasestorage.googleapis.com/v0/b/gsc23-12e94.appspot.com/o/members%2Fhuixiang.jpeg?alt=media&token=96a55b42-7c9f-4e68-b41f-d986efe79c01" alt=""/></a> | <a href="https://github.com/changdaozheng"><img width="180px" src="https://firebasestorage.googleapis.com/v0/b/gsc23-12e94.appspot.com/o/members%2Fdaozheng.jpeg?alt=media&token=96a55b42-7c9f-4e68-b41f-d986efe79c01" alt=""/></a> | <a href="https://github.com/Trigon25"><img width="180px" src="https://firebasestorage.googleapis.com/v0/b/gsc23-12e94.appspot.com/o/members%2Fmarc.jpeg?alt=media&token=96a55b42-7c9f-4e68-b41f-d986efe79c01" alt=""/></a> | <a href="https://github.com/ongjx16"><img width="180px" src="https://firebasestorage.googleapis.com/v0/b/gsc23-12e94.appspot.com/o/members%2Fjingxuan.jpeg?alt=media&token=96a55b42-7c9f-4e68-b41f-d986efe79c01" alt=""/></a> |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <div align="center"><h3><b><a href="https://github.com/chayhuixiang">Chay Hui Xiang</a></b></h3><p><i>Nanyang Technological University</i></p></div>                                                                               | <div align="center"><h3><b><a href="https://github.com/changdaozheng">Chang Dao Zheng</a></b></h3></a><p><i>Nanyang Technological University</i></p></div>                                                                          | <div align="center"><h3><b><a href="https://github.com/Trigon25">Marc Chern Di Yong</a></b></h3></a><p><i>Nanyang Technological University</i></p></div></a>                                                               | <div align="center"><h3><b><a href="https://github.com/ongjx16">Ong Jing Xuan</a></b></h3></a><p><i>Nanyang Technological University</i></p></div>
