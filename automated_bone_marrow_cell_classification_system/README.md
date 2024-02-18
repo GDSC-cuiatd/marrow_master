@@ -17,13 +17,13 @@ The <b>Marrow Master application</b> presents users with a simplified and stream
 <br />
 <div align="center">
     <kbd>
-        <img height="60" src="./assets/flutter.png"/>
+        <img height="60" src="../assets/flutter.png"/>
     </kbd>
     <kbd>
-        <img height="60" src="./assets/dart.png"/>
+        <img height="60" src="../assets/dart.png"/>
     </kbd>
     <kbd>
-        <img height="60" src="./assets/firebase.png"/>
+        <img height="60" src="../assets/firebase.png"/>
     </kbd>
     <h4>Flutter | Dart | Firebase</h4>
 </div>
@@ -130,6 +130,6 @@ $ flutter run [--release]
 
 ## 👥 &nbsp;Contributors
 
-| <a href="https://github.com/rizwanshah123"><img width="180px" src="assets/rizwan.png" alt=""/></a> | <a href=""><img width="180px" src="assets/rida.png" alt=""/></a> | <a href=""><img width="180px" src="assets/areeb.png" alt=""/></a> | <a href=""><img width="180px" src="assets/rizwan.png" alt=""/></a> |
+| <a href="https://github.com/rizwanshah123"><img width="180px" src="../assets/rizwan.png" alt=""/></a> | <a href=""><img width="180px" src="../assets/rida.png" alt=""/></a> | <a href=""><img width="180px" src="../assets/areeb.png" alt=""/></a> | <a href=""><img width="180px" src="../assets/rizwan.png" alt=""/></a> |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <div align="center"><h3><b><a href="https://github.com/rizwanshah123">Rizwan Shah</a></b></h3><p><i>Cui Atd</i></p></div>                                                                               | <div align="center"><h3><b><a href="">Rida Zainab</a></b></h3></a><p><i>Cui Atd</i></p></div>                                                                          | <div align="center"><h3><b><a href="">Areeb Ajab</a></b></h3></a><p><i>Cui Atd</i></p></div></a>                                                               | <div align="center"><h3><b><a href="">Maha Babar</a></b></h3></a><p><i>Cui Atd</i></p></div>
