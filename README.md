@@ -1,8 +1,7 @@
 <br>
 <div align="center">
     <div >
-    logo will be added soon
-        <img width="200px" src="" alt=""/>
+        <img width="200px" src="assets/logo.png" alt=""/>
     </div>
     <div>
             <h3><b>Marrow Master</b></h3>
