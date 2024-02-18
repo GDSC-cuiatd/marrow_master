@@ -1,6 +1,6 @@
 <div align="center">
     <div >
-        <img width="200px" src="assets/logo.png" alt=""/>
+        <img width="200px" src="./assets/logo.png" alt=""/>
     </div>
     <div >
             <p style="font-size:50px;"><b>Marrow Master</b></p>
