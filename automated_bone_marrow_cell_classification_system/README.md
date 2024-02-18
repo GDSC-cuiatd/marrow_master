@@ -15,7 +15,7 @@ The <b>Marrow Master application</b> presents users with a simplified and stream
 <br>
 <br>
   <div >
-        <img width="200px" src="../assets/app_screen.png" alt=""/>
+        <img width="200px" src="../assets/app_screen.png.jpg" alt=""/>
     </div>
 <be>
 <br>
