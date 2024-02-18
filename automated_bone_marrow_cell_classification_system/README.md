@@ -13,6 +13,12 @@
 
 The <b>Marrow Master application</b> presents users with a simplified and streamlined interface that highlights only the most relevant information for each user.
 <br>
+<br>
+  <div >
+        <img width="200px" src="../assets/app_screen.png" alt=""/>
+    </div>
+<be>
+<br>
 <h2>👨🏻‍💻 Technology Stack</h2>
 <br />
 <div align="center">
