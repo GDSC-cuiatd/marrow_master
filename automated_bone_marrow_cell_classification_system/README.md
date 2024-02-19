@@ -60,7 +60,7 @@ $ flutter pub get
 3. Launch Application
 
 ```
-$ flutter run [--release]
+$ flutter run --release
 ```
 <br>
 
