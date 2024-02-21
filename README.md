@@ -31,7 +31,7 @@ With the rising prevalence of blood cancer among ageing populations, patients fa
 
 <a href="https://youtu.be/bIR2xIDkA4A?si=JWXr_U4hXUA6FASp"><img src="" /></a>
 
-> Video Link: will be added soon
+> Video Link: https://youtu.be/bIR2xIDkA4A?si=JWXr_U4hXUA6FASp
 
 ## 🛠️ &nbsp;Key Functionalities
 
