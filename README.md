@@ -28,8 +28,8 @@ Marrow Master revolutionizes bone marrow cell classification using machine learn
 With the rising prevalence of blood cancer among ageing populations, patients face debilitating symptoms like fatigue and weakness, leading to frequent hospital visits and emotional distress. This creates significant challenges for both patients and caregivers, emphasizing the urgent need for improved management strategies.
 
 ## 🎥 &nbsp;Demo Video
-will be added soon
-<a href=""><img src="" /></a>
+
+<a href="https://youtu.be/bIR2xIDkA4A?si=JWXr_U4hXUA6FASp"><img src="" /></a>
 
 > Video Link: will be added soon
 
