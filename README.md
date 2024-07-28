@@ -85,4 +85,4 @@ python app.py
 <p>This project is licensed under the MIT License. See the LICENSE file for more details.</p>
 
 <h2>Contact</h2>
-<p>For any questions or issues, please open an issue in this repository or contact me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+<p>For any questions or issues, please open an issue in this repository or contact me at <a href="mailto:shahrizwan403@gmail.com">shahrizwan403@gmail.com</a>.</p>
