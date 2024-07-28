@@ -1,88 +1,150 @@
-<h1>Automotive Prognostic Application</h1>
-<p>This project is an automotive prognostic application designed to monitor and predict vehicle conditions in real time. It leverages an OBDII interface to gather data from the vehicle, processes the data through a Flask backend, and provides both real-time monitoring and predictive analysis to a mobile app.</p>
+<br>
+<div align="center">
+    <div >
+        <img width="200px" src="assets/logo.png" alt=""/>
+    </div>
+    <div>
+            <h3><b>Marrow Master</b></h3>
+            <p><i>Experience the future of cell classification on your device</i></p>
+    </div>      
+</div>
+<br>
+<h1 align="center">Marrow Master</h1>
 
-<h2>Features</h2>
+![Marrow Master](assets/logo.png)
 
-<h3>Real-time Data Collection</h3>
-<ul>
-    <li><strong>OBDII Interface:</strong> Connects to the vehicle's OBDII port (using COM4) to collect real-time data.</li>
-    <li><strong>Flask Backend:</strong> Processes the data using the OBD library to retrieve various metrics such as engine RPM, fuel pressure, coolant pressure, coolant temperature, and lubricating oil temperature.</li>
-    <li><strong>API for Real-time Data:</strong> Sends all collected data directly to the mobile app for real-time display when the app is launched.</li>
-</ul>
+**Marrow Master: Experience the future of cell classification on your device**
 
-<h3>Predictive Analysis</h3>
-<ul>
-    <li><strong>Trained Prognostic Model:</strong> Utilizes a machine learning model trained to predict the condition of the vehicle.</li>
-    <li><strong>API for Predictions:</strong> Analyzes the collected data to predict whether the car's condition is okay or not and sends this information to the mobile app.</li>
-    <li><strong>Explainable AI:</strong> Provides explainable values indicating which features most impacted the model's decision, enhancing transparency and trust in the predictions.</li>
-</ul>
+Marrow Master revolutionizes bone marrow cell classification using machine learning. With a diverse dataset, our model offers quick and accurate analysis accessible via a user-friendly Flutter mobile app.
 
-<h2>Installation</h2>
-<p><strong>Clone the Repository:</strong></p>
-<pre><code>
-git clone https://github.com/yourusername/automotive-prognostic-application.git
-cd automotive-prognostic-application
-</code></pre>
+## Problem Statement
 
-<p><strong>Set up the Flask Backend:</strong></p>
-<pre><code>
-pip install -r requirements.txt
-</code></pre>
+<br/>
+<blockquote align='center'>
+<h3>“6 out of 10 people suffer from blood cancer.”</h3>
+</blockquote>
+<br/>
 
-<p><strong>Configure the OBDII Interface:</strong></p>
-<ul>
-    <li>Ensure the OBDII device is connected to the vehicle and the computer through the COM4 port.</li>
-</ul>
+With the rising prevalence of blood cancer among ageing populations, patients face debilitating symptoms like fatigue and weakness, leading to frequent hospital visits and emotional distress. This creates significant challenges for both patients and caregivers, emphasizing the urgent need for improved management strategies.
 
-<h2>Usage</h2>
-<p><strong>Start the Flask Server:</strong></p>
-<pre><code>
-python app.py
-</code></pre>
+## 🎥 &nbsp;Demo Video
 
-<p><strong>Launch the Mobile App:</strong></p>
-<ul>
-    <li>Navigate to the <code>auto_prognostic_app</code> folder:</li>
-    <pre><code>
-    cd auto_prognostic_app
-    </code></pre>
-    <li>Install the necessary Flutter packages:</li>
-    <pre><code>
-    flutter pub get
-    </code></pre>
-    <li>Run the Flutter app on your connected device or emulator:</li>
-    <pre><code>
-    flutter run
-    </code></pre>
-</ul>
+<a href="https://youtu.be/bIR2xIDkA4A?si=JWXr_U4hXUA6FASp"><img src="assets/thumbnil.jpg" /></a>
 
-<h2>API Endpoints</h2>
+> Video Link: https://youtu.be/bIR2xIDkA4A?si=JWXr_U4hXUA6FASp
 
-<h3>Real-time Data Endpoint</h3>
-<p><strong>Endpoint:</strong> /api/realtime-data</p>
-<p><strong>Method:</strong> GET</p>
-<p><strong>Description:</strong> Fetches real-time vehicle data including engine RPM, fuel pressure, coolant pressure, coolant temperature, and lubricating oil temperature.</p>
+## 🛠️ &nbsp;Key Functionalities
 
-<h3>Predictive Analysis Endpoint</h3>
-<p><strong>Endpoint:</strong> /api/predict-condition</p>
-<p><strong>Method:</strong> POST</p>
-<p><strong>Description:</strong> Analyzes the collected data and predicts the car's condition. Also provides explainable values to highlight the features impacting the model's decision.</p>
+![Key Functionalities](assets/key-functionalities.jpg)
 
-<h2>Project Structure</h2>
-<ul>
-    <li><strong>app.py:</strong> Main Flask application file.</li>
-    <li><strong>model.py:</strong> Contains the code for the trained prognostic model.</li>
-    <li><strong>requirements.txt:</strong> List of dependencies required for the project.</li>
-    <li><strong>static/:</strong> Static files for the application.</li>
-    <li><strong>templates/:</strong> HTML templates for the Flask application.</li>
-    <li><strong>auto_prognostic_app/:</strong> Folder containing the Flutter mobile app.</li>
-</ul>
+### Clinical Diagnostics Assistance:
+This application focuses on aiding haematologists and pathologists in accurately classifying bone marrow cells to diagnose and monitor various blood diseases, including leukaemia, anaemia, myelodysplastic syndromes, and others. Leukaemia is a cancer of the blood or bone marrow characterized by an abnormal increase in white blood cells. Anaemia is when the body lacks enough healthy red blood cells to carry adequate oxygen to the body's tissues. Myelodysplastic syndromes are a group of disorders caused by poorly formed blood cells or a malfunction in the bone marrow.
 
-<h2>Contributing</h2>
-<p>Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.</p>
+### Research Support:
+In addition to clinical use, this application supports research in haematology, stem cell biology, and related fields. Researchers can utilize it to study bone marrow samples for scientific investigations, medication development, and a deeper understanding of hematopoiesis—the process of blood cell formation. Accurate classification of bone marrow cells is crucial for guiding treatment decisions and monitoring patient development.
 
-<h2>License</h2>
-<p>This project is licensed under the MIT License. See the LICENSE file for more details.</p>
+### Educational Tool:
+This application serves as an educational tool for training new haematologists and pathologists. It provides expertise in bone marrow cell classification and helps users comprehend the complexities of different cell types. This feature contributes to the professional development of medical practitioners in the field.
 
-<h2>Contact</h2>
-<p>For any questions or issues, please open an issue in this repository or contact me at <a href="mailto:shahrizwan403@gmail.com">shahrizwan403@gmail.com</a>.</p>
+### User Authentication and Profile Management:
+Users can register and log in to the system, accessing a personalized home screen upon login. They have the option to upload images from the gallery or camera, which are then sent to the server's model for analysis. Results, including cell name and description, are returned to the user's app and stored in Firebase for maintaining a history of analyses.
+
+### Research Support:
+In addition to clinical use, this application supports research in haematology, stem cell biology, and related fields. Researchers can utilize it to study bone marrow samples for scientific investigations, medication development, and a deeper understanding of hematopoiesis—the process of blood cell formation. Accurate classification of bone marrow cells is crucial for guiding treatment decisions and monitoring patient development.
+
+### Educational Tool:
+This application serves as an educational tool for training new haematologists and pathologists. It provides expertise in bone marrow cell classification and helps users comprehend the complexities of different cell types. This feature contributes to the professional development of medical practitioners in the field.
+
+### Profile Management and Security:
+Users can update their profiles and change passwords within the application, ensuring their information is up-to-date and secure. This feature enhances user experience and data protection.
+
+This application streamlines the process of bone marrow analysis, supports medical research and education, and provides users with a secure platform for clinical diagnostics. It combines cutting-edge technology with user-friendly features to meet the needs of healthcare professionals, researchers, and educators in the field of haematology
+
+
+## 🎯 &nbsp;UN's Sustainable Development Goals & Targets
+
+### SDG 3: Good Health and Well-Being
+
+![SDG3](assets/sdg3.png)
+
+Marrow Master directly addresses the issue of **Blood Cancer**.
+
+The project's goal is to enhance patient outcomes by using machine learning to streamline haematological diagnosis. Precise categorization of microscopic bone marrow cells can enhance diagnostic and therapeutic outcomes, eventually promoting greater health and welfare for individuals.
+
+### SDG 4: Quality Education
+
+![SDG4](assets/sdg4.png)
+
+Although not stated directly, the project probably entails training medical professionals on how to utilize the mobile application and categorization system. Healthcare personnel's skills and knowledge may be improved by training them on how to understand and use technology efficiently, which would raise the standard of care.
+
+
+### SDG 9: Infrastructure, Industry, and Innovation
+
+![SDG9](assets/sdg9.png)
+
+Marrow Master explores the field of medical diagnostics by utilizing technological infrastructure and machine-learning approaches. The project advances technology in healthcare infrastructure by creating a user-friendly mobile application and utilizing Vision Transfer methods.
+
+
+### SDG 10: Reduced disparities
+
+![SDG10](assets/sdg10.png)
+
+Marrow Master intends to minimize gaps in healthcare access by enhancing accessibility to haematological diagnostics using a user-friendly mobile application. The streamlined and effective diagnostic procedure can help patients from a variety of backgrounds and places.
+
+
+### SDG 17: Partnerships for the Goals
+
+![SDG17](assets/sdg17.png)
+
+To accomplish its goals, the initiative probably needs to work with data scientists, software developers, and medical specialists. Creating cross-sector alliances and working together is crucial to solving complicated problems in technology and health.
+
+## 👨🏻‍💻 &nbsp;Technology Stack
+
+<div align="center">
+<kbd>
+<img src="./assets/flutter.png" height="60" />
+</kbd>
+<kbd>
+<img src="./assets/dart.png" height="60" />
+</kbd>
+<kbd>
+<img src="./assets/firebase.png" height="60" />
+</kbd>
+<kbd>
+<img src="./assets/android.png" height="60" />
+</kbd>
+<kbd>
+<img src="./assets/vscode.png" height="60" />
+</kbd>
+<kbd>
+<img src="./assets/colab.png" height="60" />
+</kbd>
+<kbd>
+<img src="./assets/tensorflow.png" height="60" />
+</kbd>
+<kbd>
+<img src="./assets/python.png" height="60" />
+</kbd>
+<kbd>
+<img src="./assets/flash.png" height="60" />
+</kbd>
+    <kbd>
+<img src="./assets/github.png" height="60" />
+</kbd>
+    </kbd>
+    <kbd>
+<img src="./assets/adobe.png" height="60" />
+</kbd>
+</div>
+<div align="center">
+<h4>Flutter | Dart | Firebase | Android | VsCode | Colab | TensorFlow | Python | Flash | Github | Adobe Illustrator</h4>
+</div>
+
+
+
+
+## 👥 &nbsp;Contributors
+
+| <a href="https://github.com/rizwanshah123"><img width="180px" src="assets/rizwan.png" alt=""/></a> | <a href=""><img width="180px" src="assets/rida.png" alt=""/></a> | <a href=""><img width="180px" src="assets/areeb.png" alt=""/></a> | <a href=""><img width="180px" src="assets/maha.png" alt=""/></a> |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <div align="center"><h3><b><a href="">Rizwan Shah</a></b></h3><p><i>Cui Atd</i></p></div>                                                                               | <div align="center"><h3><b><a href="">Rida Zainab</a></b></h3></a><p><i>Cui Atd</i></p></div>                                                                          | <div align="center"><h3><b><a href="">Areeb Ajab</a></b></h3></a><p><i>Cui Atd</i></p></div></a>                                                               | <div align="center"><h3><b><a href="">Maha Babar</a></b></h3></a><p><i>Cui Atd</i></p></div>                                                                            |
